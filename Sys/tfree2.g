@@ -1,5 +1,5 @@
 ; tfree2.g
-; Called upon releasing tool 1
+; Called upon releasing tool 2
 ;
 
 M106 S0					; Disable part cooling on this tool
