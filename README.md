@@ -1,5 +1,5 @@
 # V-Cast_IDEX_Duet3mini5
-A list of the various configs and macros needed to get your V-Cast _Wide Boy_ IDEX up and going. The wiring for this config is different than the one on RatRig's Google drive. Verify that you have the proper wiring/pin asignments if you use this config.<br> 
+A list of the various configs and macros needed to get your V-Cast _Wide Boy_ IDEX up and going. The wiring for this config is different than the one on RatRig's Google drive. Verify that you have the proper wiring/pin asignments if you use this config. This is still a work in progress as I continue to tune and make adjustmetns to the macros.<br> 
 
 ***This configuration uses "Origin at Center". If you use this configuration, MAKE SURE YOU SET YOUR SLICER SETTINGS ACCORDINGLY***<br>
 Several macros in this repository use conditional gcodes. Make sure you are on RRF v3.3 or higher to ensure compatibility.<br>
