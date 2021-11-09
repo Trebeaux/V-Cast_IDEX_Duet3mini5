@@ -10,4 +10,4 @@ if !move.axes[0].homed || !move.axes[1].homed || !move.axes[2].homed || !move.ax
 else
 	G30 P0 X-120 Y0 Z-99999				; Probe near the left leadscrew
 	G30 P1 X110 Y0 Z-99999 S2			; Probe near the right leadscrew and calibrate
-	G1 H2 Y-150 X-150 F6000				; Return X and Y a homed position. 
+	G1 H2 Y-150 X-150 F6000	H2			; Return X and Y a homed position. 
