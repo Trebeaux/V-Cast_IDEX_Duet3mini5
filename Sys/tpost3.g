@@ -1,4 +1,4 @@
-; tpost1.g
+; tpost3.g
 ; Called after activating tool 3
 
 M106 R2     	; restore print cooling fan speed
