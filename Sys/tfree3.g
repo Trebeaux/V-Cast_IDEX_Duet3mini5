@@ -1,4 +1,4 @@
-; tfree2.g
+; tfree3.g
 ; Called upon releasing tool 3
 ;
 
