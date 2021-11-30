@@ -98,12 +98,12 @@ M563 P1 D1 H2 X3 F2 S"U"          ; Tool1 uses Extruder1, Heater2 and Fan2. X-ax
 G10 P1 U-0.4 Y-0.3 Z-0.4 R0 S0    ; Set Tool1 axis offsets and temperatures
 
 ; ''' Create a tool that prints 2 copies of the object using both carriages'''
-M563 P2 D0:1 H1:2 X0:3 F0:2 S"copy"   ; tool 2 uses both extruders, hot end heaters and fans, and maps X to both X and U
+M563 P2 D0:1 H1:2 X0:3 F0:2 S"Copy"   ; tool 2 uses both extruders, hot end heaters and fans, and maps X to both X and U
 G10 P2 X0 Y0 U-150 S0 R0              ; set tool offsets and temperatures 
 M567 P2 E1:1                          ; set mix ratio 100% on both extruders
 
-M563 P3 D0:1 H1:2 X0:3 F0:2 S"mirror"   ; tool 2 uses both extruders, hot end heaters and fans, and maps X to both X and U
-G10 P3 X0 Y0 U-150 S0 R0                ; set tool offsets and temperatures TO CONFIG
+M563 P3 D0:1 H1:2 X0:3 F0:2 S"Mirror"   ; tool 2 uses both extruders, hot end heaters and fans, and maps X to both X and U
+G10 P3 X15 Y0 U-15 S0 R0                ; set tool offsets and temperatures
 M567 P3 E1:1                            ; set mix ratio 100% on both extruders
 
 ;Filament Stuff
